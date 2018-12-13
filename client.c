@@ -33,7 +33,7 @@ int main(int argc,char *argv[])
 	
 	if(argc!=3)
 	{
-		fprintf(stderr,"./client [username] [host] [port]\n");
+		fprintf(stderr,"./client [host] [port]\n");
 		exit(1);
 	}
 	
